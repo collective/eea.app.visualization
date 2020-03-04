@@ -1,8 +1,52 @@
 Changelog
 =========
 
-11.6.dev0 - (unreleased)
-------------------------
+12.4 - (2020-02-28)
+---------------------------
+* Change: use prop instead of attr when setting value on input tags for jquery
+  1.9+ compatibility
+  [ichim-david refs #105112]
+
+12.3 - (2019-10-02)
+--------------------------
+* Change: Added new resource for david view
+  [iulianpetchesi refs #107671]
+
+12.2 - (2019-01-28)
+--------------------------
+* Jenkins: Add sonarqube step
+  [avoinea refs #101552]
+
+12.1 - (2018-09-07)
+--------------------------
+* Cleanup: Remove backward-compatible is_exhibit property
+  [avoinea refs #98283]
+
+12.0 - (2018-07-27)
+--------------------------
+* Bug fix: Don't try to scale if image is already cached in browser,
+  just return 304 with empty string
+  [szabozo0 refs #97222]
+
+11.9 - (2018-06-20)
+--------------------------
+* Change: updated URLs pointing to eea.europa.eu with https://
+  [alecghica refs #95849]
+
+11.8 - (2018-03-14)
+-------------------
+* Change: load customized collective.js.jqueryui on eea context for view pages
+  [ichim-david refs #91577]
+
+11.7 - (2017-12-12)
+-------------------
+* Change: Replace eeacms/zptlint with eeacms/plone-test:4 zptlint
+  [avoinea refs #90415]
+
+11.6 - (2017-11-07)
+-------------------
+* Change: Remove Sphinx generated documentation
+  [petchesi-iulian refs #88212]
 
 11.5 - (2017-08-16)
 -------------------
