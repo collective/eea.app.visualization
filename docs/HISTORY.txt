@@ -1,6 +1,16 @@
 Changelog
 =========
 
+12.6 - (2020-10-06)
+---------------------------
+* Change: daviz view design tweaks after latest eea redesign
+  [ichim-david refs #121911]
+
+12.5 - (2020-08-24)
+---------------------------
+* Change: daviz view tabs design tweaks
+  [ichim-david refs #119540]
+
 12.4 - (2020-02-28)
 ---------------------------
 * Change: use prop instead of attr when setting value on input tags for jquery

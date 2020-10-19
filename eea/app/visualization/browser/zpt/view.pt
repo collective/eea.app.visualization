@@ -29,8 +29,9 @@
 
 <body>
 
-<div metal:fill-slot="content-core">
+<metal:body metal:fill-slot="content-core">
 
+  <div class="widescreen-container">
 <div tal:define="views python:view.views">
   <div id="daviz-view">
     <!-- Tabs -->
@@ -64,7 +65,7 @@
   </div>
 </div>
 
-<div tal:define="info here/@@data.info | python:{}" tal:condition="info" class="visualization-info">
+<div tal:define="info here/@@data.info | python:{}" tal:condition="info" class="visualization-info my-1">
 
   <div class="more-information-body" tal:define="body context/getBody" tal:condition="body">
      <h3 i18n:translate="" class="notoc">More information</h3>
@@ -121,8 +122,8 @@
       </a>
   </div>
 </div>
-
 </div>
+</metal:body>
 </body>
 </html>
 </tal:html>
